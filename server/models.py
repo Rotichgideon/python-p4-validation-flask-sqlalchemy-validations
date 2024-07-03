@@ -14,3 +14,4 @@ class EmailAddress(db.Model):
         if '@' not in address:
             raise ValueError("Failed simple email validation")
         return address
+    
